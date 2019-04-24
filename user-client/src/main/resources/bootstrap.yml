@@ -1,0 +1,15 @@
+
+spring:
+  application:
+    name: userclient
+  cloud:
+    config:
+      uri: http://localhost:9000
+feign:
+  hystrix:
+    enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
