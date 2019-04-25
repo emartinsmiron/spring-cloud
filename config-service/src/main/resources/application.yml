@@ -5,4 +5,6 @@ spring:
     config:
       server:
         git:
-          uri: ${HOME}/Desktop/config
+          uri: https://github.com/emartinsmiron/spring-cloud/config
+          username: emartinsmiron
+          password: bird89du#
